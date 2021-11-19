@@ -11,11 +11,15 @@ public class Ex06 {
 		
 		System.out.println("");
 		
+		/*
 		c[4] = ',';
 		c[7] = ',';
 		c[9] = ',';
-		
+		*/
 		for(int i=0; i<c.length; i++) {
+			if(c[i]==' ') {
+				c[i] = ',';
+			}
 			System.out.print(c[i]);
 		}
 
